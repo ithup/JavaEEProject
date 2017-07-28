@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="SSMTemplate"
+  id="myeclipse.1499158555543"
+  context-root="/SSMTemplate"
+  j2ee-spec="5.0"
+  archive="SSMTemplate.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="FKHRM"
+  id="myeclipse.1495628787899"
+  context-root="/FKHRM"
+  j2ee-spec="5.0"
+  archive="FKHRM.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

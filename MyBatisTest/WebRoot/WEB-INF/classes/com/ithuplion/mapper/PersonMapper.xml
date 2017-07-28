@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ithuplion.mapper.PersonMapper">
+	<!-- 根据ID查询Person，返回resultMap -->
+	<select id="selectPersonById" parameterType="int" resultMap="personMapper">
+		select * from tb_person where id=#{id}
+	</select>
+	<resultMap type="com.ithuplion.pojo.Person" id="personMapper">
+		<id property="id" column="id"/>
+		<result property="name" column="name"/>
+		<result property="sex" column="sex"/>
+		<result property="age" column="age"/>
+		<!-- 一对一关联映射：association -->
+		<association property="card" column="card_id"
+			select="com.ithuplion.mapper.CardMapper.selectCardById"
+			javaType="com.ithuplion.pojo.Card"
+		/>
+	</resultMap>
+</mapper>

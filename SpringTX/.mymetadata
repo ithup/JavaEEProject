@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="SpringTX"
+  id="myeclipse.1494502829169"
+  context-root="/SpringTX"
+  j2ee-spec="5.0"
+  archive="SpringTX.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <!-- ORM元数据  表对象关系映射文件 
+    	package : 配置该配置文件中类所在的包.  -->
+ <hibernate-mapping package="com.ithuplion.pojo" >
+ 	<class name="Cource" table="cource"  >
+		<id name="c_id" column="c_id">
+			<generator class="native"></generator>
+		</id> 	
+		<property name="c_name" column="c_name"></property>
+		<set name="student" table="stu_cou">
+			<key column="cou_id"></key>
+			<many-to-many class="com.ithuplion.pojo.Student" column="stu_id"></many-to-many>
+		</set>
+ 	</class>
+ </hibernate-mapping>

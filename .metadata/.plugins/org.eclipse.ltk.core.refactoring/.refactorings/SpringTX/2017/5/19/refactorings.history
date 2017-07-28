@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;cn.ithuplion.impl&apos; to &apos;cn.ithuplion.dao.impl&apos;&#x0D;&#x0A;- Original project: &apos;SpringTX&apos;&#x0D;&#x0A;- Original element: &apos;SpringTX/src/cn.ithuplion.impl&apos;&#x0D;&#x0A;- Renamed element: &apos;SpringTX/src/cn.ithuplion.dao.impl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;cn.ithuplion.impl&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;cn.ithuplion.impl" name="cn.ithuplion.dao.impl" qualified="false" references="true" stamp="1494504489288" textual="false" version="1.0"/>
+</session>

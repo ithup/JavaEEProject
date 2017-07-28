@@ -1,0 +1,11 @@
+package com.test;
+/**
+ * 对三个数排序
+ * @author acer
+ *
+ */
+public class Sort2 {
+	public static void main(String[] args) {
+		
+	}
+}
