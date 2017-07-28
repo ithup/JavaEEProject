@@ -1,0 +1,19 @@
+package com.ithup.guessName;
+
+import java.util.Scanner;
+
+/**
+ * 程序的入口
+ * @author acer
+ *
+ */
+public class MainWeb {
+	private static Scanner input = new Scanner(System.in);
+	public static void main(String[] args) {
+		System.out.println("---------------欢迎进入游戏世界----------------\n");
+		System.out.println("\t******************");
+		System.out.println("\t***  猜拳，开始      ****");
+		System.out.println("\t******************\n");
+		
+	}
+}

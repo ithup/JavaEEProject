@@ -1,0 +1,16 @@
+package com.ithup.guessName;
+
+import java.util.Random;
+
+/**
+ * 电脑
+ * @author acer
+ *
+ */
+public class Computer {
+	public void showInfo(){
+		Random r=new Random();
+		int number=r.nextInt(3)+1;	//出拳的规则
+		switch(nubmer)
+	}
+}

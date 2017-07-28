@@ -1,0 +1,14 @@
+package com.ithup.guessName;
+
+import java.util.Scanner;
+
+/**
+ * 程序的入口
+ * @author acer
+ *
+ */
+public class MainGame {
+	public static void main(String[] args) {
+		
+	}
+}

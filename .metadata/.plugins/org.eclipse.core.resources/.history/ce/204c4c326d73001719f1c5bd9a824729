@@ -1,0 +1,14 @@
+package com.ithup.guessName;
+/**
+ * 初始化操作
+ * @author acer
+ *
+ */
+public class Game {
+	Person person;
+	Computer computer;
+	int count;//猜拳的次数
+	public void startGame(){
+		
+	}
+}

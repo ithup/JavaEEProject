@@ -1,0 +1,20 @@
+package com.ithup.guessName;
+/**
+ * 
+ * @author acer
+ *
+ */
+public class Person {
+	private String name = "匿名";		//姓名
+	private int score = 0;			//积分
+	public String showInfo(String role,String name){
+		switch(role){
+		case "1":
+			return "已出剪刀";
+		case "2":
+			return "已出布";
+		case "3":
+			return "已出石头";
+		}
+	}
+}

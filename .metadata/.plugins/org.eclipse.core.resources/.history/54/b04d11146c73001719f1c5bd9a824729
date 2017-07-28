@@ -1,0 +1,37 @@
+package com.ithup.guessName;
+
+import java.util.Scanner;
+
+/**
+ * 程序的入口
+ * @author acer
+ *
+ */
+public class MainGame {
+	private static Scanner input = new Scanner(System.in);	//键盘输入
+	public static void main(String[] args) {
+		//创建对象
+		Person person =new Person();
+		Computer computer = new Computer();
+		System.out.println("------------欢迎进入游戏世界--------------\n");
+		System.out.println("\t******************");
+		System.out.println("\t***  猜拳，开始      ****");
+		System.out.println("\t******************\n");
+		System.out.println("出拳规则:1.剪刀  2.石头  3.布");
+		System.out.print("请选择对方角色(1:刘备  2.孙权  3.曹操):");
+		int roleNumber = input.nextInt();
+		System.out.print("请输入你的名字：");
+		String myname = input.next();
+		switch(roleNumber){
+		case 1:
+			person.name="刘备";
+			break;
+		case 2:
+			person.name="孙权";
+		case 3:
+			person.name="曹操";
+		}
+		System.out.println(myname+"VS"+person.name+"对战");
+		System.out.print("请出拳:1.剪刀  2.石头  3.布(输入相应的数字):");
+	}
+}

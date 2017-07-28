@@ -1,0 +1,31 @@
+package com.ithup.guessName;
+
+import org.junit.Test;
+
+/**
+ * 
+ * @author acer
+ *
+ */
+public class Person {
+	private String name = "匿名";		//姓名
+	private int score = 0;			//积分
+	public void showInfo(String role,String name){
+		switch(role){
+		case "1":
+			System.out.println(name+"已出剪刀");
+			break;
+		case "2":
+			System.out.println(name+"已出布");
+			break;
+		case "3":
+			System.out.println(name+"已出石头");
+			break;
+		}
+	}
+	@Test
+	public void test01(){
+		Person p=new Person();
+		p.showInfo("1","tom");
+	}
+}
