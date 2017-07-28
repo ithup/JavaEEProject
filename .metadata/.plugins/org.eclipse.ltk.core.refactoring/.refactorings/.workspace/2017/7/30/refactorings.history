@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;FileUpload&apos;" deleteContents="true" description="Delete resource &apos;FileUpload&apos;" element1="/FileUpload" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1501201981908"/>&#x0A;<refactoring comment="Delete resource &apos;OracleConn&apos;" deleteContents="true" description="Delete resource &apos;OracleConn&apos;" element1="/OracleConn" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1501201990125"/>
-</session>

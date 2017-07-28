@@ -1,8 +1,5 @@
-#Thu Jul 20 21:54:55 CST 2017
-IDE_ENCODINGS_PREFERENCE=GBK'
-eclipse.preferences.version=1
-TASKS_FILTERS_MIGRATE=true
-tipsAndTricks=false
-platformState=1494483253667
-quickStart=false
 PROBLEMS_FILTERS_MIGRATE=true
+eclipse.preferences.version=1
+platformState=1501209765940
+quickStart=true
+tipsAndTricks=true

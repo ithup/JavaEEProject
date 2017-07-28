@@ -1,7 +1,0 @@
-@CHARSET "UTF-8";
-.container{
-	background-color: red;
-}
-.row{
-	height: 60px;
-}

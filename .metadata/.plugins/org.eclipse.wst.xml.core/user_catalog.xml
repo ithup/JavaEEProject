@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-  <system systemId="http://www.springframework.org/schema/tx/spring-tx.xsd" uri="file:///E:/黑马JavaEE/05、第五阶段Spring3框架技术/Spring/day33-spring--day01/spring--day00/jar/spring-framework-3.2.0.RELEASE/schema/tx/spring-tx-3.2.xsd"/>
-  <system systemId="http://www.springframework.org/schema/aop/spring-aop.xsd" uri="file:///E:/黑马JavaEE/05、第五阶段Spring3框架技术/Spring/day33-spring--day01/spring--day00/jar/spring-framework-3.2.0.RELEASE/schema/aop/spring-aop-3.2.xsd"/>
-  <uri name="http://mybatis.org/dtd/mybatis-3-config.dtd" uri="file:///E:/黑马JavaEE/13、第十三阶段Mybatis框架技术/mybatis01/res/xml约束/dtd/mybatis-3-config.dtd"/>
-  <uri name="http://mybatis.org/dtd/mybatis-3-mapper.dtd" uri="file:///E:/黑马JavaEE/13、第十三阶段Mybatis框架技术/mybatis01/res/xml约束/dtd/mybatis-3-mapper.dtd"/>
-</catalog>
